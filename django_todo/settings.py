@@ -30,7 +30,7 @@ SECRET_KEY = 'tp_im=r)kr4r$r&q@z7d1e$^16^2nx)%myvvvhp)ko_ku2%a04'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["djangotodoproject-96fe0246a8ad.herokuapp.com"]
 
 
 # Application definition
