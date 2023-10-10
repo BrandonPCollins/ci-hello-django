@@ -108,5 +108,6 @@
     }
   },
 
-  "remoteUser": "codeany"
+  "remoteUser": "codeany",
+  "runArgs": ["--env--", ".devcontainer/devcontainer.env" ]
 }

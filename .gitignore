@@ -1,4 +1,6 @@
 *.sqlite3
+*.env
+.env 
 __pycache__/ 
 core.Microsoft*
 core.mongo*
