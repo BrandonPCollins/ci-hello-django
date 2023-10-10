@@ -30,7 +30,7 @@ SECRET_KEY = 'tp_im=r)kr4r$r&q@z7d1e$^16^2nx)%myvvvhp)ko_ku2%a04'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://djangotodoproject-96fe0246a8ad.herokuapp.com/"]
+ALLOWED_HOSTS = ["djangotodoproject-96fe0246a8ad.herokuapp.com"]
 
 
 # Application definition
@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 DATABASE = {
-    'default': dj_database_url.parse(os.environ.get('postgres://kycbrbxa:NKsw-ORHvb4dKCbw6jOkTYVXXW--k5wc@flora.db.elephantsql.com/kycbrbxa'))
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
